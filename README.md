@@ -2,7 +2,7 @@
 
 A modern, full-stack grocery management web application built with Flask (Python) and vanilla JavaScript. This application allows you to manage products, create orders, and track inventory with a clean, responsive UI.
 
-## 🚀 Features
+##  Features
 
 - **Product Management**: Add, edit, and delete products with units of measurement (UOM)
 - **Order Management**: Create and view customer orders with multiple line items
@@ -11,7 +11,7 @@ A modern, full-stack grocery management web application built with Flask (Python
 - **Responsive UI**: Modern Bootstrap-based interface
 - **SQLite Database**: Lightweight, file-based database (no external setup required)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Flask (Python)
 - **Database**: SQLite
@@ -19,12 +19,12 @@ A modern, full-stack grocery management web application built with Flask (Python
 - **UI Framework**: Bootstrap 5.3
 - **Architecture**: RESTful API with static file serving
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package installer)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 
@@ -57,7 +57,7 @@ python -m backend.app
 
 Open your browser and navigate to: `http://127.0.0.1:5000`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 grocery-webapp/
@@ -87,7 +87,7 @@ grocery-webapp/
 └── README.md               # This file
 ```
 
-## 🔧 API Endpoints
+
 
 ### Products
 - `GET /api/products` - Get all products
@@ -104,7 +104,7 @@ grocery-webapp/
 - `GET /api/uoms` - Get all UOMs
 - `POST /api/uoms` - Create a new UOM
 
-## 💾 Database Schema
+## Database Schema
 
 The application uses SQLite with the following tables:
 
@@ -113,7 +113,7 @@ The application uses SQLite with the following tables:
 - **orders**: Customer orders (id, customer_name, total_amount, created_at)
 - **order_items**: Order line items (id, order_id, product_id, quantity, price)
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Managing Products
 
@@ -136,14 +136,14 @@ The application uses SQLite with the following tables:
 2. View all orders with customer details and totals
 3. Click "View" to see detailed line items
 
-## 🔒 Security Notes
+##  Security Notes
 
 - This is a development application
 - SQLite database is stored locally
 - No authentication is implemented
 - Use in production with proper security measures
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -151,18 +151,18 @@ The application uses SQLite with the following tables:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with Flask framework
 - UI powered by Bootstrap
 - Icons from Bootstrap Icons
 - Inspired by real-world grocery management needs
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
 
@@ -172,4 +172,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Happy Coding! 🎉**
+**Happy Coding! **
